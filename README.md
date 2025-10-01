@@ -62,7 +62,7 @@ python manage.py createsuperuser
 - SMSAERO_EMAIL - ваш email при регистрации
 - SMSAERO_API_KEY - API ключ в настройках
 
-![sms_aero_api](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/sms_aero_api.png)
+![sms_aero_api](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/sms_aero_api.png)
 
 - SMTP_HOST = "82.2"
 - SMTP_PORT = 27
