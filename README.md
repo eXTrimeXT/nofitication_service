@@ -67,11 +67,11 @@ python manage.py createsuperuser
 - SMTP_HOST = "82.2"
 - SMTP_PORT = 27
 
-![sms_aero_api_1](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/sms_aero_api_1.png)
+![sms_aero_api_1](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/sms_aero_api_1.png)
 
 - Создайте аккаунт для SMPP-доступа
 
-![sms_aero_api_2](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/sms_aero_api_2.png)
+![sms_aero_api_2](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/sms_aero_api_2.png)
 
 - В качестве IP-адреса нужно указать свой.
 - SMTP_LOGIN = "smtp"
@@ -91,7 +91,7 @@ python manage.py runserver
 
 Добавьте контактные данные в разделе "Notifications" → "Контакты пользователей"
 
-![ap_1](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/ap_1.png)
+![ap_1](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/ap_1.png)
 
 Создание уведомлений:
 
@@ -101,7 +101,7 @@ python manage.py runserver
 
 Выберите пользователя и введите текст сообщения
 
-![ap_2](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/ap_2.png)
+![ap_2](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/ap_2.png)
 
 
 Отправка уведомлений:
@@ -112,9 +112,10 @@ python manage.py runserver
 
 Система автоматически попробует все доступные каналы связи
 
-![ap_3](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/ap_3.png)
+![ap_3](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/ap_3.png)
 
-
+После чего приходит сообщение в Телеграм
+![ap_3](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/ap_4.png)
 
 ## Алгоритм отправки
 Сервис использует следующий порядок отправки:
@@ -146,7 +147,7 @@ python manage.py runserver
 ## На заметку
 СМС-сообщение отправляется с задержкой на модерацию.
 
-![sms_aero](https://github.com/eXTrimeXT/nofitication_service/blob/main/asserts/images/sms_aero.png)
+![sms_aero](https://github.com/eXTrimeXT/nofitication_service/blob/main/assets/images/sms_aero.png)
 
 
 ## Разработка
